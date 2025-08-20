@@ -1,7 +1,7 @@
 const sqlite3 = require('sqlite3').verbose(); 
 const path = require('path'); 
  
-// Crear o conectar a la base de datos 
+// Crear o conectar a la base de datos x
 const dbPath = path.join(__dirname, 'tasks.db'); 
 const db = new sqlite3.Database(dbPath); 
  
